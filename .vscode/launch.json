@@ -1,0 +1,120 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "DAA_eeb90a6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "DAA_eeb90a6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch dectobin",
+            "request": "launch",
+            "mainClass": "dectobin",
+            "projectName": "DAA_eeb90a6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "competitive_50999e96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Utkarsh_and_Placement_tests",
+            "request": "launch",
+            "mainClass": "Utkarsh_and_Placement_tests",
+            "projectName": "competitive_50999e96"
+        },
+        {
+            "type": "java",
+            "name": "Launch A_Do_Not_Be_Distracted_",
+            "request": "launch",
+            "mainClass": "A_Do_Not_Be_Distracted_",
+            "projectName": "competitive_50999e96"
+        },
+        {
+            "type": "java",
+            "name": "Launch tenl",
+            "request": "launch",
+            "mainClass": "tenl",
+            "projectName": "competitive_50999e96"
+        },
+        {
+            "type": "java",
+            "name": "Launch A_Team_Olympiad",
+            "request": "launch",
+            "mainClass": "A_Team_Olympiad",
+            "projectName": "competitive_50999e96"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibMultiThreading",
+            "request": "launch",
+            "mainClass": "FibMultiThreading",
+            "projectName": "competitive_7bac53b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch hoffmanInput",
+            "request": "launch",
+            "mainClass": "hoffmanInput",
+            "projectName": "competitive_7bac53b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Huffman",
+            "request": "launch",
+            "mainClass": "Huffman",
+            "projectName": "competitive_7bac53b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch SegregateArray",
+            "request": "launch",
+            "mainClass": "SegregateArray",
+            "projectName": "Codechef_79561913"
+        },
+        {
+            "type": "java",
+            "name": "Launch pairspointer",
+            "request": "launch",
+            "mainClass": "pairspointer",
+            "projectName": "Codechef_79561913"
+        },
+        {
+            "name": "g++ - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++ build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
