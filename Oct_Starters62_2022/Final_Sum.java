@@ -13,9 +13,11 @@ public class Final_Sum {
             int n,q;
             n=sc.nextInt();
             q=sc.nextInt();
+            int z=0;
             int arr[]=new int[n];
             for (int i = 0; i < n; i++) {
                 arr[i]=sc.nextInt();
+                z+=arr[i];
             }
             while (q-->0) {
              int a,b;
@@ -26,19 +28,16 @@ public class Final_Sum {
              for (int i = a; i < b; i++) {
                 if (flag==1) {
                     arr[i]=arr[i]+1;
+                    z+=1;
                     flag=0;
                 }else if (flag==0) {
                     arr[i]=arr[i]-1;
+                    z-=1;
                     flag=1;
                 }
              }               
             }
-            int z=0;
-            for (int k = 0; k < n; k++) {
-                
-                    z+=arr[k];
-                
-            }
+            
             System.out.println(z);
         }
     }
